@@ -1,0 +1,176 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3059834127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.before()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login-to-facebook;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 391744456,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31164046617,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user navigate to facebook.com",
+            "match": {
+              "location": "Login.user_navigate_to_facebook_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176655690,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter username as \"admin\" and pwd as \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 24
+                },
+                {
+                  "val": "pass",
+                  "offset": 43
+                }
+              ],
+              "location": "Login.user_enter_username_as_and_pwd_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53191504,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "some other action",
+            "match": {
+              "location": "Login.some_other_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42991539,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login should successfull",
+            "match": {
+              "location": "Login.login_should_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to facebook",
+    "description": "I want to use this template for my feature file\r\nSummary: to verify facebook login.com\r\nAuthor: Premkumar",
+    "id": "login-to-facebook",
+    "keyword": "Feature",
+    "uri": "feature/facebooklogin.feature"
+  }
+]

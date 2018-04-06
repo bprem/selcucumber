@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79156" started-at="2018-04-06T09:52:21Z" finished-at="2018-04-06T09:53:40Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucmber.framework.runner.RegFeatureRunner@6a1aab78]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="79156" started-at="2018-04-06T09:52:21Z" finished-at="2018-04-06T09:53:40Z">
+      <class name="com.cucmber.framework.runner.RegFeatureRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucmber.framework.runner.RegFeatureRunner@6a1aab78]" name="setUpClass" is-config="true" duration-ms="186" started-at="2018-04-06T09:52:21Z" finished-at="2018-04-06T09:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucmber.framework.runner.RegFeatureRunner@6a1aab78]" name="feature" duration-ms="78893" started-at="2018-04-06T09:52:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-04-06T09:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registrtion.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucmber.framework.runner.RegFeatureRunner@6a1aab78]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-04-06T09:53:40Z" finished-at="2018-04-06T09:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucmber.framework.runner.RegFeatureRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
