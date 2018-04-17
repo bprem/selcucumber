@@ -1,0 +1,13 @@
+1. create one directory 
+2 .switch into the directory
+3. give command git init
+4. Import your file into the location
+5. give the command git add
+6. commit the code using git commit -m"msg"
+7. create new branch git checkout -b "branch name"
+8. create new repository in git
+9. push the exsiting code tho tehe repo using command
+ 
+     git remote add origin https://github.com/cubeton/mynewrepository.git
+10. Now we'll push the commit in your branch to your new GitHub repo
+	git push origin my-new-branch
